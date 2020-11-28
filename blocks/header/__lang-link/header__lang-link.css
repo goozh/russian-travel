@@ -1,0 +1,9 @@
+.header__lang-link {
+  margin: 0 18px 0 0;
+  text-decoration: none;
+  color: white;
+}
+
+.header__lang-link:last-of-type {
+  margin: 0;
+}
