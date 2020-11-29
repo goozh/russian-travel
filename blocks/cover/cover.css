@@ -1,0 +1,9 @@
+.cover {
+  background-image: url('../../images/cover__background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 1184px;
+  height: 740px;
+  margin: 0 48px;
+  position: relative;
+}
