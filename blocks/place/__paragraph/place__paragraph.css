@@ -3,6 +3,7 @@
   font-size: 18px;
   line-height: 1.63;
   font-weight: 400;
+  white-space: pre-wrap;
 }
 
 .place__paragraph:last-of-type {
