@@ -1,5 +1,5 @@
 .places {
   padding: 92px 0 12px;
-  max-width: 1280px;
+  max-width: calc(0.21875 * 100vw + 704px);  /*значение от 984 до 928 для 1280 и 1024 соответственно*/
   margin: 0 auto;
 }

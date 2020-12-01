@@ -2,8 +2,13 @@
   display: grid;
   grid-template-columns: 0.95fr 1fr;
   grid-template-rows: min-content max-content;
-  margin: 0 148px;
-  column-gap: 40px;
+  column-gap: calc(0.03125 * 100vw);  /* от 40 до 32 для 100vh от 1280 до 1024*/
   row-gap: 48px;
   padding-bottom: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    grid-template-columns: 0.96fr 1fr;
+  }
 }

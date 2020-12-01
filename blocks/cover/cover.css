@@ -3,15 +3,15 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  width: 1184px;
+  max-width: 1184px;
   height: 740px;
   margin: 0 auto;
   position: relative;
-  max-width: 1280px;
 }
 
 @media screen and (max-width: 1184px) {
   .cover {
     width: 100%;
+    height: calc(0.625 * 100vw);
   }
 }

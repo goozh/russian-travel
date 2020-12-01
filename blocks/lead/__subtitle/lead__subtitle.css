@@ -1,6 +1,6 @@
 .lead__subtitle {
   text-align: center;
-  margin: 32px auto 64px;
+  margin: 32px auto calc(0.03125 * 100vw + 24px); /* значение calc от 64 до 56 для 100hw: от 1280 до 1024 соответсвенно*/
   font-size: 30px;
   line-height: 1.2;
   font-weight: 400;

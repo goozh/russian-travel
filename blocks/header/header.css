@@ -2,5 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 28px 48px 56px;
+  padding: 28px 48px calc(0.03125 * 100vw + 16px);  /* значение calc от 56 до 48 для 1280 и 1024 соответственно*/
 }
+
+/* calc здесь и далее использую для "плавного" сжатия с разрешения 1280 до 1024. Зачем? ¯\_(ツ)_/¯*/
