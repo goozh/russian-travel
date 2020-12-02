@@ -7,3 +7,17 @@
   margin: 0 auto;
   width: 720px;
 }
+
+@media screen and (max-width: 768px) {
+  .lead__title {
+    font-size: calc(0.125 * 100vw); /*значение calc от 96 до 40 для 768 и 320 соответственно*/
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__title {
+    font-size: 40px;
+    line-height: 1.10;
+  }
+}

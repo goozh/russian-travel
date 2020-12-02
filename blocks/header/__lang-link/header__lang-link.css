@@ -11,3 +11,9 @@
 .header__lang-link:last-of-type {
   margin: 0;
 }
+
+@media screen and (max-width: 767px) {
+  .header__lang-link {
+    font-size: calc(0.0133929 * 100vw + 13.7143px);  /* calc от 24 до 18 для разрешений 768 и 320*/
+  }
+}

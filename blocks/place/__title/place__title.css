@@ -14,5 +14,12 @@
 @media screen and (max-width: 768px) {
   .place__title {
     max-width: 330px;
+    font-size: calc(0.0223214 * 100vw + 24.8571px); /*значение от 42 до 32 для 768 и 320 соответственно*/
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__title {
+    font-size: 32px;
   }
 }

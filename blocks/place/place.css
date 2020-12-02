@@ -14,6 +14,22 @@
 @media screen and (max-width: 1024px) {
   .place {
     grid-template-columns: 0.96fr 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
     padding-bottom: 73px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, min-content);
+    /* grid-template-areas:
+    "title"
+    "image"
+    "text"; */
   }
 }

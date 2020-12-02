@@ -10,3 +10,16 @@
     padding: 0 calc(0.09375 * 100vw - 48px);  /*значение от 48 до 24 для 1024 и 768 соответственно*/
   }
 }
+
+@media screen and (max-width: 767px) {
+  .photo-grid {
+    padding: 0 calc(0.0178571 * 100vw + 10.2857px);  /*значение от 24 до 16 для 768 и 320 соответственно*/
+    gap: 12px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .photo-grid {
+    padding: 0 16px;
+  }
+}
