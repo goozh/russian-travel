@@ -9,3 +9,10 @@
 .place__paragraph:last-of-type {
   margin: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .place__paragraph {
+    font-size: calc(0.0078125 * 100vw + 10px);  /*значение от 18 до 16 для 1024 и 768 соответственно*/
+    margin: 0 0 25px;
+  }
+}

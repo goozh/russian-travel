@@ -7,3 +7,9 @@
   text-transform: uppercase;
   margin: 8px 0 0;
 }
+
+@media screen and (max-width: 1023px) {
+  .lead__caption {
+    margin: 8px calc(96px - 0.09375 * 100vw) 0;  /* значение calc от 0 до 24 для 1024 и 768 соответственно*/
+  }
+}

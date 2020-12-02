@@ -4,3 +4,9 @@
   align-items: center;
   padding: 92px 48px 24px;
 }
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    padding: 88px calc(0.09375 * 100vw - 48px) 0;  /*значение от 48 до 24 для 1024 и 768 соответственно*/
+  }
+}

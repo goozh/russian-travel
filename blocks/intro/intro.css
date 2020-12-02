@@ -3,3 +3,9 @@
   margin: 0 auto;
   padding: 92px 0;
 }
+
+@media screen and (max-width: 1023px) {
+  .intro {
+    padding: 88px calc(0.09375 * 100vw - 48px);  /*значение от 48 до 24 для 1024 и 768 соответственно*/
+  }
+}

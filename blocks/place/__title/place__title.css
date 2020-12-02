@@ -4,3 +4,15 @@
   font-weight: 900;
   margin: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .place__title {
+    font-size: calc(0.117188 * 100vw - 48px);  /*значение от 72 до 42 для 1024 и 768 соответственно*/
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__title {
+    max-width: 330px;
+  }
+}
