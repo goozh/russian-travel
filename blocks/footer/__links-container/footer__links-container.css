@@ -4,3 +4,10 @@
   margin: 0;
   padding: 0;
 }
+
+@media screen and (max-width: 550px) {
+  .footer__links-container {
+    flex-direction: column;
+    padding-bottom: 12px;
+  }
+}

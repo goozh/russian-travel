@@ -8,3 +8,16 @@
   margin: 0;
   position: relative;
 }
+
+@media screen and (max-width: 768px) {
+  .cover__subtitle {
+    font-size: calc(0.00852878 * 100vw + 11.2708px);  /* значение calc от 18 до 14*/
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 1.14;
+  }
+}

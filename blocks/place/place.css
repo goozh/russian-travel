@@ -27,6 +27,8 @@
   .place {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, min-content);
+    padding-bottom: 49px;
+    row-gap: 32px;
     /* grid-template-areas:
     "title"
     "image"
