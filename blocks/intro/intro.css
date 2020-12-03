@@ -1,7 +1,12 @@
 .intro {
   max-width: calc(0.21875 * 100vw + 704px);  /*значение от 984 до 928 для 1280 и 1024 соответственно*/
-  margin: 0 auto;
   padding: 92px 0;
+}
+
+@media screen and (min-width: 1281px) {
+  .intro {
+    max-width: 984px;
+  }
 }
 
 @media screen and (max-width: 1023px) {

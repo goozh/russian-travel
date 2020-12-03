@@ -23,11 +23,11 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 400px) {
   .place {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, min-content);
-    padding-bottom: 49px;
+    padding-bottom: 52px;
     row-gap: 32px;
     /* grid-template-areas:
     "title"

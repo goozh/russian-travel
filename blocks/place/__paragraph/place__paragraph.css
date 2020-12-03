@@ -20,5 +20,6 @@
   .place__paragraph {
     font-size: 16px;
     padding: 0 16px;
+    white-space: pre-line;
   }
 }

@@ -10,9 +10,14 @@
 
 @media screen and (max-width: 768px) {
   .lead__subtitle {
-    width: 100%;
     margin: 32px auto 56px;
-    font-size: calc(0.0535714 * 100vw - 1.14286px);  /*значение calc от 30 до 16 для 768 и 320 соответственно*/
+    font-size: calc(0.03125 * 100vw + 6px);  /*значение calc от 30 до 16 для 768 и 320 соответственно*/
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .lead__subtitle {
+    width: 100%;
   }
 }
 
