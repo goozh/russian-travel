@@ -1,6 +1,8 @@
 @media screen and (max-width: 767px) {
   .header__logo {
-    width: calc(0.0758929 * 100vw + 117.714px);  /* calc от 176 до 142 для разрешений 768 и 320*/
-    height: calc(0.0223214 * 100vw + 34.8571px);  /* calc от 52 до 42 для разрешений 768 и 320*/
+    width: 100%;
+    height: 100%;
+    max-width: calc(0.0758929 * 100vw + 117.714px);  /* calc от 176 до 142 для разрешений 768 и 320*/
+    max-height: calc(0.0223214 * 100vw + 34.8571px);  /* calc от 52 до 42 для разрешений 768 и 320*/
   }
 }

@@ -5,13 +5,13 @@
   line-height: 1.04;
   text-align: center;
   margin: 0 auto;
-  width: 720px;
+  max-width: 720px;
+  width: 100%;
 }
 
 @media screen and (max-width: 768px) {
   .lead__title {
     font-size: calc(0.125 * 100vw); /*значение calc от 96 до 40 для 768 и 320 соответственно*/
-    width: 100%;
   }
 }
 
