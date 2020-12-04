@@ -1,0 +1,21 @@
+.places__list-item {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 80px;
+}
+
+.places__list-item:last-of-type {
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .places__list-item {
+    padding-bottom: 73px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .places__list-item {
+    padding-bottom: 51px;
+  }
+}

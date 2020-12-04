@@ -4,7 +4,6 @@
   grid-template-rows: min-content max-content;
   column-gap: calc(0.03125 * 100vw);  /* от 40 до 32 для 100vh от 1280 до 1024*/
   row-gap: 48px;
-  padding-bottom: 80px;
 }
 
 .place:last-of-type {
@@ -17,21 +16,11 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-  .place {
-    padding-bottom: 73px;
-  }
-}
 
 @media screen and (max-width: 400px) {
   .place {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, min-content);
-    padding-bottom: 52px;
     row-gap: 32px;
-    /* grid-template-areas:
-    "title"
-    "image"
-    "text"; */
   }
 }
