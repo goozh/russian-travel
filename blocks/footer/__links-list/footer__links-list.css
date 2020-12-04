@@ -5,9 +5,14 @@
   padding: 0;
 }
 
+@media screen and (max-width: 712px) {
+  .footer__links-list {
+    padding-bottom: 12px;
+  }
+}
+
 @media screen and (max-width: 550px) {
   .footer__links-list {
     flex-direction: column;
-    padding-bottom: 12px;
   }
 }
